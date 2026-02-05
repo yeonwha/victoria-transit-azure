@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "transit-data/{name}",
+      "connection": "victransitdata_STORAGE"
+    }
+  ]
+}
